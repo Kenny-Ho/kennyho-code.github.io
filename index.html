@@ -1,181 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kenny Ho's Portfolio. Skills include HTML, CSS, JavaScript, Jquery, Bootstrap, Python, Django, Bootstrap">
-    <meta name="keywords" content="Kenny, Ho, Kenny Ho, Portfolio, Python, HTML, CSS, Software, Javascript, Java, Algorithms, Computer Science, Software Engineering ">
-    <meta name="author" content="Kenny Ho">
-    <title>Kenny Ho's Personal Website</title>
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css" type="text/css"/>
-    <link rel="stylesheet" href="static/css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="static/js/base.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
-<body>
 
-    <div id="landing" >
-      
-                <br/><br/>
-                <h1>Kenny Ho</h1>
-                <div class="keyboard-icon">
-                    <i class="fa fa-keyboard-o"></i>
-                </div>
-            
-                <h3>Technologist & Autodidact</h3>
-            </br>
-                <hr>
-                <br/>
-                
-                <h3>
-                    <a class="button" href="about" id="aboutbutton">about</a> | 
-                    <a href="http://dailycode.ghost.io">blog</a> | 
-                    <a class="button"href="projects" id="projectsbutton">projects</a> |
-                    <a class ="button"href="contact" id="contactbutton" >contact</a> 
-                </h3>
-           
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Kenny Ho</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+   
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+
+                    <div class="name "><h1>Kenny Ho <span class="blinking-cursor">|</span></h1></div>     
+    </section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h2>ABOUT ME</h2>
+                    <br />
+
+            </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                     <p>
+                        I'm a young, enthusiastic, and passionate Computer Science student at Virginia Commonwealth University (VCU) living in Richmond, Virginia. Not only do I believe in higher education, but I also believe knowledge can be obtained through various sources. The vast amount of information that is floating around the internet can be used to transcend the problems of location and affordability. With that in mind, there is no excuse to grab every detail, of every sentence, of every article that interests you. I believe that a person can make their own path in life if they are willing to put in hard work, persevere, and be truly honest with themselves. Signal over noise.
+                    </p>
         
-    </div>
-    <!-- END LANDING -->
-     <div class="down-arrow">
-        <div class="down-arrow-link first">
-            <a href="about" class="button"><span class="glyphicon glyphicon-chevron-down"></span></a>
-        </div>
-    </div>
 
+                    <p>
+                        I'm currently looking for internships or any other interesting opportunities. Please contact me (preferabbly email) for more details. 
+                 </p>
+             </div>
 
-<!-- ABOUT PAGE -->
-    <div id="about">
-        <h2>About</h2>
-      <div class="row">
-
-        <!-- START RIGHT INFO -->
-         <div class="col-sm-6">
-            <div class ="left-top">
-                <div class="top-info">
-                    <i class="fa fa-line-chart fa-4x"></i>
-                    <h3> Goal </h3>
-                    </br>
-                </div>        
-                <p>Create a diverse set of skills in Technology, Business, and Communication to solve BIG problems.</p>
+    
             </div>
 
-            <div class ="left-bottom">
-                </br>
-                    <i class="fa fa-user fa-4x"></i>
-                    <h3>Background</h3> 
-                    </br>
-                    <p>I'm a young, enthusiastic, and passionate Computer Science student at Virginia Commonwealth University (VCU) living in Richmond, Virginia. Not only do I believe in higher education, but I also believe knowledge can be obtained through various sources. The vast amount of information that is floating around the internet can be used to transcend the problems of location and affordability. 
-
-                    With that in mind, there is no excuse to grab every detail, of every sentence, of every article that interests you. I believe that a person can make their own path in life if they are willing to put in hard work, persevere, and be truly honest with themselves. Signal over noise.</p>
-            </div>  
-       </div>
-       <!-- END LEFT INFO -->
-
-        <!-- START RIGHT INFO -->
-        <div class="col-sm-6">
-            <div class ="right-top">
-                <div class="top-info">
-                    <i class="fa fa-wrench fa-4x"></i>
-                    <h3> Skills </h3>
-                </br>
-            </div>        
-                <p>Python | Django | Javascript(ES5) | jQuery | Java | HTML5 | CSS3 | Bootstrap</p>
             </div>
 
-            <div class ="right-bottom">
-                </br>
-                    <i class="fa fa-spinner fa-4x"></i>
-                    <h3>Interests</h3> 
-                    </br>
-                    <p>Computer Science | Communication | Education | Entrepreneurship | Fitness | Health </p>
-                </div>  
-       </div>
-       <!-- END RIGHT INFO-->
-      </div>
-    </div>
-<!-- END ABOUT -->
-    <div class="down-arrow dark-arrow">
-        <div class="down-arrow-link first">
-            <a href="projects" class="button"><span class="glyphicon glyphicon-chevron-down"></span></a>
+
         </div>
-    </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="projects" class="projects-section">
 
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 col-md-12 text-center">
+                   <h2>Projects</h2>
+                   <br />
 
-<!-- START PROJECT -->
-    <div id="projects">
-        <h2>Projects</h2>
+           </div>
 
-        <div class="row">
-            <div class="col-sm-4">
-                <div class ="project-top">
-                    <a href="https://sheltered-tor-73161.herokuapp.com">
-                        <img src="static/pictures/hack_u_img.png" alt="hacku_picture" class="img-thumbnail">
-                    </a>
-                <h3>hackU</h3>
-                <p> <i> Februrary 2016 </i> </p>
+           </div>
+
+           <div class="row">
+               <div class="col-lg-12 col-md-12">
+
+                   <div class="col-lg-4 ">
+                     <a href="https://sheltered-tor-73161.herokuapp.com">
+                    <img src="img/hack_u_img.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                    <h3> hackU </h3>
+                </a>
+                    <p> <i> Februrary 2016 </i> </p>
+                </br>
                 <p class="project-info" >A web application that maps all Major League Hacking's hackathons on google maps. It also lists hackathons by nearest upcoming and dynamcally deletes them once it has already begun.</p>
+            </br>
+            </br>
 
                 <p><i>Technologies Used: Python | Django | HTML | CSS | Bootstrap | Javascript | Jquery | Google Maps API </i></p>
-                </div>
-          
-        </div>
 
-        <div class="col-sm-4">
-            <div class ="project-top">
-                <a href="http://github.com/hokatvcu/UCSD_Text_Editor/">
-                    <img src="static/pictures/text_editor_picture.png" alt="text_editor_picture" class="img-thumbnail">
+                    </div>
+                    
+
+                <div class="col-lg-4">
+                     <a href="http://github.com/hokatvcu/UCSD_Text_Editor/">
+                    <img src="img/text_editor_picture.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                   
+                    <h3> Text Editor </h3>
                 </a>
-          <h3>Text Editor</h3>
-          <p> <i> December 2015 </i></p>
-          <p class="project-info">A Java GUI based text editor using specialized data structures to implement spell check, word
-            completion, Markov text generation, and Flesch score (readability of text). </p>
-            <p> <i> Technologies Used: Java </i> </p>
-          </div>
+                    <p> <i> December 2015 </i></p>
+                </br>
+                              <p class="project-info">A Java GUI based text editor using specialized data structures to implement spell check, word
+                                completion, Markov text generation, and Flesch score (readability of text). </p>
+                </br>
+            </br>
+                
+                                <p> <i> Technologies Used: Java </i> </p>
+            </div>
+
+
+                <div class="col-lg-4">
+                    <a href="https://github.com/hokatvcu/UCSD_Earthquake_Map">
+                        <img src="img/earthquake_tracker_picture.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+
+                        <h3>Earthquake Tracker</h3>
+                    </a>
+                        <p> <i>October 2015</i> </p>
+                    </br>
+                        <p class="project-info">A Java GUI based application using UnfoldingMaps and Processing APIs. The goal of the project was to learn object-oriented programming by implementing a world map with interactive markers that show information about recent earthquakes.</p>
+                    </br>
+                    <p><i>Technologies Used: Java | UnfoldingMaps API | Processing API | USGS JSON | Google Maps API </i></p>
+            </div>
+           </div>
+           </div>
        </div>
 
-        <div class="col-sm-4">
-            <div class ="project-top">
-                <a href="https://github.com/hokatvcu/UCSD_Earthquake_Map">
-                    <img src="static/pictures/earthquake_tracker_picture.png" alt="earthquake_tracker_picture" class="img-thumbnail">
-                </a>
-                <h3>Earthquake Tracker</h3>
-                <p> <i>October 2015</i> </p>
-                <p class="project-info">A Java GUI based application using UnfoldingMaps and Processing APIs. The goal of the project was to learn object-oriented programming by implementing a world map with interactive markers that show information about recent earthquakes.</p>
-            <p><i>Technologies Used: Java | UnfoldingMaps API | Processing API | USGS JSON | Google Maps API </i></p>
-      </div>
-          
-        </div>
-      </div>
-
-</div>
-<!-- END PROJECT -->
-    <div class="down-arrow">
-        <div class="down-arrow-link first">
-            <a href="contact" class="button"><span class="glyphicon glyphicon-chevron-down"></span></a>
-        </div>
-    </div>
 
 
+    </section>
 
-<!-- START CONTACT -->
-        <div id="contact"><h2>Contact</h2>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h2>Contact</h2>
+                    <br />
 
-            <div class ="social-bar">
-                <a href="http://www.linkedin.com/in/kenny-ho-060a69ba"><i class ="fa fa-linkedin-square fa-5x" style="color:#0077B5;"></i></a>
-                <a href="http://www.facebook.com/kenny.ho.169067"><i class="fa fa-facebook-square fa-5x" style="color:#3b5998;"></i></a>
-                <a href="http://twitter.com/kennyhothedev"><i class="fa fa-twitter-square fa-5x" style="color:#55acee;"></i></a>
-                <a href=""><i class="fa fa-instagram fa-5x"style="color:#3f729b;"></i></a>
-                <a href="mailto:kennyhothedev@gmail.com"><i class="fa fa-envelope fa-5x" style="color:#dce1e1;"></i></a>
             </div>
-        </div>
-        <p id="footer">© Kenny Ho 2016 - special thanks to <a href="http://celia-deeter.com/">Celia Deeter</a> for inspiration</p>
-<!-- END CONTACT -->
-<!-- dummy -->
 
-    </body>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class ="social-bar">
+                        <a href="http://www.linkedin.com/in/kenny-ho-060a69ba"><i class ="fa fa-linkedin-square fa-5x" style="color:#0077B5;"></i></a>
+                        <a href="http://www.facebook.com/kenny.ho.169067"><i class="fa fa-facebook-square fa-5x" style="color:#3b5998;"></i></a>
+                        <a href="http://twitter.com/kennyhothedev"><i class="fa fa-twitter-square fa-5x" style="color:#55acee;"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-5x"style="color:#3f729b;"></i></a>
+                        
+                    </div>
+                    <a href="mailto:kennyhothedev@gmail.com">kennyhothedev@gmail.com</a>
+
+                 <p id="footer">© Kenny Ho 2016 </p>
+             </div>
+
+        
+            </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
 </html>

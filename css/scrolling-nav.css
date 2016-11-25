@@ -1,0 +1,187 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+
+        background-color: black;
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar .navbar-nav {
+  float: right;
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url('bombe.jpg');
+    background-size: cover;
+    color:#49fb35;
+    position:relative;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+
+.name {
+    position: absolute;
+    top: 50%;
+    /* adjust top up half the height of a single line */
+    margin-top: -0.5em;
+    /* force content to always be a single line */
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.name h1{
+    font-size: 75px;
+}
+
+.name h1 span{
+    font-size: 75px;
+        color:#49fb35;
+}
+
+/* About Section*/
+.about-section {
+ 
+    padding: 100px 0;
+    background: #333333;
+    color:white;
+}
+
+.about-section h2{
+  font-family: 'Permanent Marker', cursive;
+  color: #ff69b4;
+
+
+}
+
+/* Projects Section */
+.projects-section {
+
+    padding: 100px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.projects-section h2{
+  font-family: 'Permanent Marker', cursive;
+  color: #6699f6;
+
+
+}
+
+.contact-section {
+
+    padding-top: 100px ;
+    text-align: center;
+    background: black;
+    color:white;
+}
+
+.contact-section h2{
+    font-family: 'Permanent Marker', cursive;
+  color: yellow
+}
+
+.social-bar{
+  padding-bottom: 100px;
+}
+
+.social-bar i{
+
+  margin-right: 30px;
+}
+
+/* Blinking Text Cursor*/
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #49fb35;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #49fb35;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #49fb35;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #49fb35;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #49fb35;
+  }
+}
+
+
