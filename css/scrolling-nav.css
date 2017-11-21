@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+.body{
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+}
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+.white-bg{
+  background:#ffffff !important;
+}
+
+#mainNav{
+  height: 100px;
+}
+#mainNav a{
+  color:black;
+}
+
+#navbarResponsive li{
+  color:black;
+}
+
+#navBrand{
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+#about{
+  padding-top: 50px;
+}
+
+.section-title{
+  text-align: center;
+}
+
+section ul{
+  list-style-type: circle;
+}
+
+
+
+.degree span{
+  float:right;
+}
+
+.project-row{
+  padding-top:27px;
+  padding-bottom: 27px;
+}
+
+.icon{
+  margin-left: -95px;
+  margin-top: 5px;
+  border-radius: 10px;
+  height: 65px;
+  width: 65px;
+  float:left;
+}
+
+
+.skill{
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+}
+
+.skills-section{
+  padding-bottom: 40px;
+}
+
+.project-col{
+  padding: 30px 30px 30px 30px;
+}
+
+.card{
+
+}
+
+.card-text{
+
+  padding: 25px;
+  padding-bottom: 0px;
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.skill-small{
+  border: 1px solid #50a9d1;
+  padding:5px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 7px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+}
+
+.card-section-small{
+  padding: 10px 10px 10px 10px;
+}
+
+.skills-section-small{
+  padding: 10px 10px 10px 10px;
+  font-size: 5px;
+}
+
+.skills-section-small span{
+  font-size: 8px;
+}
+
+.dropdown{
+
+  padding: 30px;
+}
+
+.greeting{
+  background: black;
+}
+
+.personal-statement{
+  width: 500px;
+}
